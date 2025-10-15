@@ -18,3 +18,4 @@ jobs:
             echo "index.html file does not exist"
             exit 1
           fi
+          
