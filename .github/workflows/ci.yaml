@@ -10,8 +10,8 @@ jobs:
     steps:
       - name: Checkout repository
       - uses: actions/checkout@v4
-      - name:validate html file
-        run: |
+      - name: validate html file
+        run: |  
           if [ -f index.html ]; then
             echo "index.html file exists"
           else
